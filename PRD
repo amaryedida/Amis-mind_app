@@ -1,0 +1,147 @@
+Product Requirements Document (PRD):
+Enhanced Personal Note-Taking App
+● Version: 1.0
+● Date: June 15, 2025
+● Author: Compiled by Gemini based on user requirements.
+● Project Status: Draft
+1. Overview
+This document outlines the requirements for a new personal note-taking application designed
+for both Android and the Web. The primary goal is to create a simple, intuitive, and powerful tool
+for a small group of private users. The application will serve as an enhanced alternative to
+existing products like Google Keep, with a specific focus on advanced features, a clean user
+interface, and seamless synchronization.
+2. Guiding Principles & Goals
+● Simplicity: The app should be easy to learn and use, without a cluttered interface.
+● Feature Richness: Offer enhanced features beyond basic note-taking, specifically voice
+transcription and advanced reminders.
+● Seamless Sync: Provide a reliable and real-time data sync experience between the
+Android and Web platforms.
+● Personal Focus: The app is intended for personal use by a few individuals, not for a
+mass market.
+3. User Stories
+3.1. Android App User Stories
+● Viewing & Managing Notes:
+○ As a user, I want to open the app and see all my notes displayed in a clear grid
+format so I can quickly find what I'm looking for.
+○ As a user, I want to single-tap on any note to open it for viewing and editing.
+○ As a user, I want to long-press a note to reveal options to either archive or
+permanently delete it, allowing for quick management.
+● Creating Notes:
+○ As a user, I want to tap a "+" button to create a new note.
+○ As a user, when creating a note, I want the option to attach an image from my
+phone's gallery or camera.
+○ As a user, I want to be able to dictate my notes by speaking, and have the app
+transcribe my speech into text directly within the note.
+● Sharing into the App:
+○ As a user, when I view an image in my phone's gallery or take a screenshot, I want
+to use the native Android "Share" function to send it directly to the note-taking app.
+This should automatically create a new note with the image already attached, so I
+can immediately add my thoughts.
+3.2. Web App User Stories
+● Viewing & Managing Notes:
+○ As a user, I want to access the web app and see the same grid of notes that
+appears on my Android app.
+○ As a user, I want to be able to click on a note to open, edit, archive, or delete it,
+similar to the Android experience.
+● Creating Notes:
+○ As a user, I want to create new text notes, set reminders, and add tags.
+○ As a user, when I am writing a note, I want to click a button to open a file picker and
+attach an image from my computer. I also want the ability to simply drag and drop
+an image file into the note editor.
+4. Detailed Feature Requirements
+Feature Android App Web App Backend (Firebase)
+Note Creation Text, Image
+Attachment, Voice
+Transcription.
+Text, Image Attachment
+(Upload & Drag/Drop).
+Store note data (text,
+timestamps, etc.).
+Note Viewing Grid layout view of all
+notes.
+Grid layout view of all
+notes.
+Serve note data to
+clients.
+Note Interaction Single-tap to open.
+Long-press to
+archive/delete.
+Click to open. Clear UI
+buttons for
+archive/delete.
+Handle update/delete
+requests.
+Image Handling Attach from
+gallery/camera.
+Receive images via
+Android Share Sheet.
+Attach images via file
+upload or
+drag-and-drop.
+Use Firebase Storage
+to store image files.
+Data Sync All notes and changes
+sync in real-time.
+Offline access with
+sync on reconnect.
+All notes and changes
+sync in real-time.
+Use Firebase
+Firestore for real-time
+database
+synchronization.
+Organization Ability to add tags to
+notes.
+Ability to add tags to
+notes.
+Store and index tags.
+Search Search notes by text
+content or by tag.
+Search notes by text
+content or by tag.
+Support queries for
+search functionality.
+Reminders Set time-based
+reminders for notes.
+Set time-based
+reminders for notes.
+Store reminder data.
+(Push notifications
+might require Firebase
+Cloud Messaging).
+5. Technical Specifications
+● Android App:
+○ Language: Kotlin
+○ Architecture: Modern architecture (e.g., MVVM)
+○ UI: Material Design
+○ Libraries: Retrofit (for potential future APIs), Room (for offline caching)
+● Web App:
+○ Framework: React
+○ Styling: Modern CSS framework or CSS-in-JS
+○ Hosting: GitHub Pages
+● Backend:
+○ Database: Firebase Firestore
+○ File Storage: Firebase Storage
+○ Authentication: Firebase Authentication (for managing the few users)
+6. Timeline & Milestones (2-Month Target)
+● Month 1: Phase 1 - Core Functionality
+○ Setup development environments for Android and Web.
+○ Implement Firebase backend (Firestore, Storage).
+○ Build basic note creation, viewing, editing, and deleting on both platforms.
+○ Establish basic real-time data sync.
+● Month 2: Phase 2 & 3 - Features & Polish
+○ Phase 2: Implement all enhanced features: image attachments, voice transcription,
+tags, search, and reminders.
+○ Phase 3: Dedicated period for comprehensive testing, bug fixing, UI polishing, and
+performance optimization.
+7. Testing & Quality Assurance (QA)
+● The project stakeholder (you) will be the sole tester for both the Android and web
+versions.
+● The testing process will be hands-on and personal.
+● Feedback regarding bugs, usability issues, and feature improvements will be
+communicated directly to the development process for iteration.
+8. Deployment Plan
+● Android App: The app will not be deployed to the Google Play Store. Instead, the final
+.apk file will be distributed directly to the few intended users.
+● Web App: The production-ready web application will be hosted on GitHub Pages, which
+is sufficient and cost-effective for this project's scale
