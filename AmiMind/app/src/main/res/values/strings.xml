@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Ami\'s Mind</string>
+    <string name="note_image_preview">Note image preview</string>
+    <string name="add_new_note">Add new note</string>
+    <string name="hint_title">Title</string>
+    <string name="hint_content">Content</string>
+    <string name="action_save">Save</string>
+    <string name="action_attach_image">Attach Image</string> <!-- This was added in previous step but tool failed to update strings.xml -->
+    <string name="action_archive">Archive</string>
+    <string name="action_delete">Delete</string>
+    <string name="dialog_delete_note_title">Delete Note</string>
+    <string name="dialog_delete_note_message">Are you sure you want to delete this note?</string>
+    <string name="dialog_yes">Yes</string>
+    <string name="dialog_no">No</string>
+</resources>
