@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.amisapps.amismind.app-mergeDebugResources-49:/layout/activity_add_edit_note.xml",
+        "source": "com.amisapps.amismind.app-main-52:/layout/activity_add_edit_note.xml"
+    },
+    {
+        "merged": "com.amisapps.amismind.app-mergeDebugResources-49:/layout/activity_main.xml",
+        "source": "com.amisapps.amismind.app-main-52:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.amisapps.amismind.app-mergeDebugResources-49:/layout/note_item.xml",
+        "source": "com.amisapps.amismind.app-main-52:/layout/note_item.xml"
+    }
+]
