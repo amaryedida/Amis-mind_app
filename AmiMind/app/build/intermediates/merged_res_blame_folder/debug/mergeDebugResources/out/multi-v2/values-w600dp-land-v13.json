@@ -4,7 +4,7 @@
             "outputFile": "com.amisapps.amismind.app-mergeDebugResources-48:/values-w600dp-land-v13/values-w600dp-land-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Ami\\.gradle\\caches\\8.14.3\\transforms\\4f489dd6e055d5b59e7b2891afe71b54\\transformed\\material-1.12.0\\res\\values-w600dp-land-v13\\values-w600dp-land-v13.xml",
+                    "source": "C:\\Users\\Ami\\.gradle\\caches\\8.14.3\\transforms\\685c8a3f8cfe522ae09f8c67f0e6e04e\\transformed\\material-1.12.0\\res\\values-w600dp-land-v13\\values-w600dp-land-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

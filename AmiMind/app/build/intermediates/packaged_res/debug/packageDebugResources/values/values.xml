@@ -12,7 +12,8 @@
     <string name="action_delete">Delete</string>
     <string name="action_save">Save</string>
     <string name="add_new_note">Add new note</string>
-    <string name="app_name">Ami\'s Mind</string>
+    <string name="app_name">Ami's Mind</string>
+    <string name="app_name_amis_mind">Ami's Mind</string>
     <string name="dialog_delete_note_message">Are you sure you want to delete this note?</string>
     <string name="dialog_delete_note_title">Delete Note</string>
     <string name="dialog_no">No</string>

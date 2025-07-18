@@ -36,6 +36,7 @@ string action_delete
 string action_save
 string add_new_note
 string app_name
+string app_name_amis_mind
 string dialog_delete_note_message
 string dialog_delete_note_title
 string dialog_no
